@@ -1,0 +1,25 @@
+h1{
+    font-size: 5em;
+    
+}
+#profile{
+    height: 400px;
+}
+.social-icon{
+    height: 50px;
+}
+body{
+    background-color: white
+}
+
+div{
+    background-color: white;
+}
+
+body{
+    color: burlywood;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
