@@ -191,7 +191,25 @@
         font-size: 12px;
 
     }
+    .left1{
+        width: 100%;
+        height: 350px;
+        background: url(Screenshot\ \(121\).png) no-repeat bottom / cover ;
+    }
+    .right1{
+        width: 90%;
+        margin: 0;
+        margin-top: -160px;
+    }
+    .right1 h1{
+        font-size: 26px;
+    }
+    .right1 p{
+        font-size: 15px;
+    }
   }
+  
+
 
 .top-nav {
   display: flex;
@@ -669,7 +687,7 @@ footer {
     flex-direction: column;
     text-align: center;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 10px;
     background: linear-gradient(-30deg, #39e9d1, #cd6de6, #23a6d5, #23d5ab);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
@@ -701,7 +719,7 @@ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
 }
 .social-media i {
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
 }
 .social-media i:hover{
