@@ -51,6 +51,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - https://matthewjamestaylor.com/responsive-font-size
     - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
     - https://getbootstrap.com/docs/4.0/components/navbar/
+    - https://freefrontend.com/css-text-effects/
+    - https://cssgradient.io/blog/css-gradient-text/
 
 
 
