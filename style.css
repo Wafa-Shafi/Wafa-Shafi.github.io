@@ -266,8 +266,29 @@
         transition: all .4s ease-in-out;
         background-size: 152% 100%;
     }
+/* Smartphones (portrait)*/ 
+@media only screen and (max-width: 320px) {
+    .content .wafa{
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: -20px;
+        
+    }
+    .content p{
+        font-size: 18px;
+    }
     
-
+    .content .btn{
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 10px 30px;
+        border-radius: 500px;
+        display: inline-block;
+        font-weight: 500;
+        transition: all .4s ease-in-out;
+        background-size: 152% 100%;
+    }
 .top-nav {
   display: flex;
   flex-direction: row;
