@@ -29,6 +29,9 @@
   margin-top: 15px;
 
 }
+.title:hover{
+    font-style: italic;
+}
   
   
 
@@ -240,8 +243,30 @@
         width: 100%;
     }
 }
-  
-
+  /* top section on large screens*/
+@media only screen and (min-width: 1200px) {
+    .content .wafa{
+        font-size: 80px;
+        line-height: 70px;
+        margin-top: -25px;
+        
+    }
+    .content p{
+        font-size: 40px;
+    }
+    
+    .content .btn{
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 10px 30px;
+        border-radius: 500px;
+        display: inline-block;
+        font-weight: 500;
+        transition: all .4s ease-in-out;
+        background-size: 152% 100%;
+    }
+    
 
 .top-nav {
   display: flex;
@@ -274,6 +299,7 @@
 .logo a{
     text-decoration: none;
     color: white;
+    margin-left: 20px;
 }
 
 .menu > li {
