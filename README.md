@@ -42,7 +42,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 3. How long, in hours, did it take you to complete this assignment?
-    - About 8 hours
+    - 8 - 10 hours
 
 
 
@@ -63,5 +63,5 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 6. Is there anything special we need to know in order to run your code?
-    - N/A
+    - I started this portfolio before this course.
 
