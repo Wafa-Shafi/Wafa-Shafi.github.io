@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
-@import url('https://fonts.googleapis.com/css?family=Alegreya%20Sans%20SC');
+
 
 
 *{
@@ -528,7 +528,6 @@ nav{
     line-height: 90px;
     text-transform: inherit;
     width: 70%;
-    font: 'Alegreya Sans SC';
     float: left;
     
 }
