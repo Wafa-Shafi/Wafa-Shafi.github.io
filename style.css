@@ -383,7 +383,6 @@
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: white;
     background: linear-gradient(-30deg, #39e9d1, #cd6de6, #23a6d5, #23d5ab);
 
   }
@@ -404,9 +403,31 @@
 
 }
 
+/* resposivesness for logo */
+@media only screen and (max-width: 400px) and (min-width: 300px){
+    .logo{
+        margin-left: -10px;
+    }
+}
+@media only screen and (max-width: 550px) and (min-width: 401px){
+    .logo{
+        margin-left: -52px;
+    }
+}
+@media only screen and (max-width: 660px) and (min-width: 551px){
+    .logo{
+        margin-left: -52px;
+    }
+}
+@media only screen and (max-width: 840px) and (min-width: 661px){
+    .logo{
+        margin-left: -40px;
+    }
+}
 
 
-@media only screen and (max-width: 459px) and (min-width: 300px){
+
+@media only screen and (max-width: 350px) and (min-width: 300px){
     .hero{
         height: 180vh;
     }
@@ -420,9 +441,7 @@
         margin-top: 20px;
         font-size: 45px;
     }
-    .logo{
-        margin-left: -33px;
-    }
+    
     .right h1, .right1 h1{
         font-size: 35px;
     }
@@ -430,7 +449,30 @@
         font-size: 16px;
     }
     
+    
 }
+@media only screen and (max-width: 459px) and (min-width: 351px){
+    .hero{
+        height: 160vh;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    .right .card_btn,.right1 .card_btn{
+        width: 100%;
+    }
+    .title{
+        margin-top: 20px;
+        font-size: 45px;
+    }
+    .right h1, .right1 h1{
+        font-size: 35px;
+    }
+    .right p, .right1 p{
+        font-size: 16px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) and (min-width: 460px){
 
@@ -452,9 +494,7 @@
     .right .card_btn, .right1 .card_btn{
         width: 100%;
     }
-    .logo{
-        margin-left: -30px;
-    }
+
 }
 
 @media only screen and (max-width: 962px) and (min-width: 601px){
@@ -475,9 +515,6 @@
     }
     .right .card_btn, .right1 .card_btn{
         width: 100%;
-    }
-    .logo{
-        margin-left: -25px;
     }
 }
 
