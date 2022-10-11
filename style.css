@@ -610,6 +610,9 @@ footer {
     font-weight: bold;
     padding: 20px;
 }
+footer a{
+    font-size: 0px;
+}
 
 .social-media {
     margin: 23px auto;
