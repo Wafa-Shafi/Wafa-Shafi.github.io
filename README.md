@@ -33,6 +33,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - Padding and margins
     - Text color, background color, visually appealing
     - Custom fonts
+    - Bootstrap
 
 
 
