@@ -192,8 +192,52 @@ p {
   }
 
   
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    .section-title2 {
+      margin-left: 0.5em;
+    }
+  
+    .education-item {
+      padding: 8px;
+    }
+  
+    .education-item h3 {
+      font-size: 16px;
+    }
+  
+    .education-item p {
+      font-size: 14px;
+    }
+  
+    .education-item .date {
+      font-size: 12px;
+    }
+  }
 
-
+  /* For smaller screens */
+@media screen and (max-width: 768px) {
+    .cd-timeline-content {
+      padding: 0.8em;
+    }
+  
+    .cd-timeline-content h2 {
+      font-size: 18px;
+    }
+  
+    .timeline-content-info-title,
+    .timeline-content-info-date {
+      font-size: 14px;
+    }
+  
+    .content-skills li {
+      font-size: 12px;
+    }
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
   
 
   
