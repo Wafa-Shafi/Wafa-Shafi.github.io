@@ -14,24 +14,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* PROJECT TITLE */
 
-.title{
-   font-size: 8vw;
-  background: linear-gradient(7deg, hsl(287, 80%, 57%), #4d2dd8, #cd05f0, #3018e8);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 10px;
-  font-family: Helvetica, sans-serif;
-  text-transform: uppercase;
-  margin-top: 10px;
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  font-weight: bold;
-}
-/* Education and Work History */
 /* Education and Work History */
 body {
     font-family: 'Arial', sans-serif;
@@ -561,6 +544,8 @@ p {
   transform: rotate(-405deg);
 }
 
+/* RESPONSIVE NAV BAR FOR SMALLER SCREENS */
+
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
@@ -614,7 +599,7 @@ p {
 
 }
 
-/* resposivesness for logo */
+/* HERO SECTION RESPONSIVENESS */
 @media only screen and (max-width: 400px) and (min-width: 300px){
     .logo{
         margin-left: -10px;
@@ -798,6 +783,7 @@ nav{
 
 
 
+
 /* ANIMATION */
 
 @keyframes gradient {
@@ -812,18 +798,6 @@ nav{
     }
 }
 
-
-
-/*
-.line{
-    width: 1100px;
-    height: 3px;
-    background:rgb(252, 109, 140);
-    border-radius: 5px;
-    margin-left: 15px;
-    
-}
- */ 
 
  /* FOOTER */
 
